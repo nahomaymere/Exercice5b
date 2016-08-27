@@ -1,15 +1,14 @@
 //
-//  main.c
+//  ch_list.h
 //  Exercice5
 //
 //  Created by Nahom Hailu on 19/08/16.
 //  Copyright (c) 2016 Nahom. All rights reserved.
 //
 
+#ifndef __Exercice5__ch_list__
+#define __Exercice5__ch_list__
+
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
-}
+#endif /* defined(__Exercice5__ch_list__) */

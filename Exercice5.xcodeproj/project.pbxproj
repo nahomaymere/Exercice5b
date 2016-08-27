@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112AD5571D675F0C00470C85 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD5561D675F0C00470C85 /* main.c */; };
+		112AD55F1D675F4400470C85 /* Time.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD55D1D675F4400470C85 /* Time.c */; };
+		112AD5621D675F7400470C85 /* ch.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD5601D675F7400470C85 /* ch.c */; };
+		112AD5651D675FB000470C85 /* ch_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD5631D675FB000470C85 /* ch_list.c */; };
+		112AD5681D675FE500470C85 /* time_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD5661D675FE500470C85 /* time_list.c */; };
+		115E81C31D68370D00C7B9A2 /* list3_version_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 115E81C21D68370D00C7B9A2 /* list3_version_3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,16 @@
 
 /* Begin PBXFileReference section */
 		112AD5531D675F0C00470C85 /* Exercice5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercice5; sourceTree = BUILT_PRODUCTS_DIR; };
-		112AD5561D675F0C00470C85 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		112AD55D1D675F4400470C85 /* Time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Time.c; sourceTree = "<group>"; };
+		112AD55E1D675F4400470C85 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		112AD5601D675F7400470C85 /* ch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ch.c; sourceTree = "<group>"; };
+		112AD5611D675F7400470C85 /* ch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ch.h; sourceTree = "<group>"; };
+		112AD5631D675FB000470C85 /* ch_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ch_list.c; sourceTree = "<group>"; };
+		112AD5641D675FB000470C85 /* ch_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ch_list.h; sourceTree = "<group>"; };
+		112AD5661D675FE500470C85 /* time_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = time_list.c; sourceTree = "<group>"; };
+		112AD5671D675FE500470C85 /* time_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = time_list.h; sourceTree = "<group>"; };
+		112AD5691D67615100470C85 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		115E81C21D68370D00C7B9A2 /* list3_version_3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = list3_version_3.c; path = ../list3_version_3.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +70,16 @@
 		112AD5551D675F0C00470C85 /* Exercice5 */ = {
 			isa = PBXGroup;
 			children = (
-				112AD5561D675F0C00470C85 /* main.c */,
+				115E81C21D68370D00C7B9A2 /* list3_version_3.c */,
+				112AD55D1D675F4400470C85 /* Time.c */,
+				112AD55E1D675F4400470C85 /* Time.h */,
+				112AD5601D675F7400470C85 /* ch.c */,
+				112AD5611D675F7400470C85 /* ch.h */,
+				112AD5631D675FB000470C85 /* ch_list.c */,
+				112AD5641D675FB000470C85 /* ch_list.h */,
+				112AD5661D675FE500470C85 /* time_list.c */,
+				112AD5671D675FE500470C85 /* time_list.h */,
+				112AD5691D67615100470C85 /* list.h */,
 			);
 			path = Exercice5;
 			sourceTree = "<group>";
@@ -118,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112AD5571D675F0C00470C85 /* main.c in Sources */,
+				115E81C31D68370D00C7B9A2 /* list3_version_3.c in Sources */,
+				112AD5651D675FB000470C85 /* ch_list.c in Sources */,
+				112AD55F1D675F4400470C85 /* Time.c in Sources */,
+				112AD5681D675FE500470C85 /* time_list.c in Sources */,
+				112AD5621D675F7400470C85 /* ch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +261,7 @@
 				112AD55C1D675F0C00470C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
