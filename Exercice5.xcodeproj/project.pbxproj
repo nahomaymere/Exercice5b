@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100E53A1D741E7300A92B86 /* application.c in Sources */ = {isa = PBXBuildFile; fileRef = 1100E5391D741E7300A92B86 /* application.c */; };
 		112AD55F1D675F4400470C85 /* Time.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD55D1D675F4400470C85 /* Time.c */; };
 		112AD5621D675F7400470C85 /* ch.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD5601D675F7400470C85 /* ch.c */; };
 		112AD5651D675FB000470C85 /* ch_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 112AD5631D675FB000470C85 /* ch_list.c */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1100E5391D741E7300A92B86 /* application.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = application.c; sourceTree = "<group>"; };
 		112AD5531D675F0C00470C85 /* Exercice5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercice5; sourceTree = BUILT_PRODUCTS_DIR; };
 		112AD55D1D675F4400470C85 /* Time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Time.c; sourceTree = "<group>"; };
 		112AD55E1D675F4400470C85 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
@@ -77,9 +79,10 @@
 				112AD5611D675F7400470C85 /* ch.h */,
 				112AD5631D675FB000470C85 /* ch_list.c */,
 				112AD5641D675FB000470C85 /* ch_list.h */,
+				112AD5691D67615100470C85 /* list.h */,
 				112AD5661D675FE500470C85 /* time_list.c */,
 				112AD5671D675FE500470C85 /* time_list.h */,
-				112AD5691D67615100470C85 /* list.h */,
+				1100E5391D741E7300A92B86 /* application.c */,
 			);
 			path = Exercice5;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				112AD5651D675FB000470C85 /* ch_list.c in Sources */,
 				112AD55F1D675F4400470C85 /* Time.c in Sources */,
 				112AD5681D675FE500470C85 /* time_list.c in Sources */,
+				1100E53A1D741E7300A92B86 /* application.c in Sources */,
 				112AD5621D675F7400470C85 /* ch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

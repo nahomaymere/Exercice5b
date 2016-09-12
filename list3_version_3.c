@@ -6,6 +6,7 @@
  * In order to run this program in Visual Studio 2010 select
  * Debug-Start-without-Debugging (or pressing Ctrl-F5)
  */
+
 #include <stdio.h>
 #include "Time.h"
 
@@ -29,6 +30,7 @@ int number_of_items(const TOrderedList *list);
 int list_empty(const TOrderedList *list);
 
 /* The application */
+/*
 int main () {
      TOrderedList list; Titem item;
      int i;

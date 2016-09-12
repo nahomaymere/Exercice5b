@@ -8,11 +8,12 @@
 
 #ifndef __Exercice5__ch__
 #define __Exercice5__ch__
-typedef char Ch;
-Ch read_charcter();
+#include <stdio.h>
+char read_charcter(char *mychar, char *prompt);
+int compare_character(const char char1, const char char2);
+void print_character(const char mychar);
 //printing ch funtion
 //comparing ch function
 
-#include <stdio.h>
 
 #endif /* defined(__Exercice5__ch__) */

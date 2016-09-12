@@ -7,3 +7,6 @@
 //
 
 #include "ch_list.h"
+#include <stdio.h>
+
+Do_list_imp(char, 10)
